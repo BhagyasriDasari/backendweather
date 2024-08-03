@@ -26,11 +26,10 @@ Copy code
 node app.js
 API Endpoints
 GET /weather/{city}: Fetches current weather data for the specified city.
-Parameters: city - Name of the city (e.g., London).
+Parameters: city - Name of the city (e.g., Venice).
 Response: JSON object with weather details including temperature, humidity, and conditions.
 Example
-To get the weather for London, navigate to:
+To get the weather for Venice, navigate to:
 
-bash
-Copy code
-http://localhost:3000/weather/London
+
+deployed link: https://backendweather.onrender.com/weather/Venice
